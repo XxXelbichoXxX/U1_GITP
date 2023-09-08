@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo articulo</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nuevousuario.html">Nuevo Usuario</a></li>
+        <li><a href="consultausuarios.html">Consulta Usuarios</a></li>
+        <li><a href="nuevoarticulo.html">Nuevo Artículo</a></li>
+        <li><a href="consultaarticulos.html">Consulta Artículos</a></li>
+    </ul>
+    <form action="#" method="post" enctype="multipart/form-data" autocomplete="off">
+        <div class="container">
+            <div class="box">
+                <label class="form-label" for="descripcion">Descripción: </label>
+                <input class="form-input" type="text" id="descripcion" name="descripcion">
+            </div>
+            <div class="box">
+                <label class="form-label" for="cantidad">Cantidad: </label>
+                <input class="form-input" type="text" id="cantidad" name="cantidad">
+            </div>
+            <div class="box">
+                <label class="form-label" for="pUnitario">Precio Unitario: </label>
+                <input class="form-input" type="text" id="pUnitario" name="pUnitario">
+            </div>
+            <div class="box">
+                <label for="marca">Tipo de propiedad:</label>
+                <select id="marca" name="marca">
+                    <option value="Samsung">Samsung</option>
+                    <option value="LG">LG</option>
+                    <option value="DELL">DELL</option>
+                    <option value="Apple">Apple</option>
+                </select>
+                <button>Guardar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
